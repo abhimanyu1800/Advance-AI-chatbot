@@ -1,0 +1,100 @@
+.para-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100vh;
+  background: url("https://cdn.mos.cms.futurecdn.net/z36tiyqbpJ7PYx8bafhks3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center top 1px;
+  height: 100vh;
+}
+
+.para-form {
+  width: 450px;
+  padding: 2rem;
+  border-radius: 4px;
+  text-align: left;
+  background: (to bottom right, #92b09e, #0a264e);
+}
+
+
+.error-parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.error-content {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+.para-form h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.para-form textarea {
+  width: 80%;
+  min-height: 1px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize:both;
+  margin-bottom: 1em;
+}
+
+.para-form button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  
+}
+
+.para-form button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.para-solution {
+  width: 400px;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .para-form {
+    width: 300px;
+  }
+
+  .para-form h3 {
+    font-size: 1rem;
+  }
+
+  .para-form textarea {
+    min-height: 150px;
+    padding: 0.4rem;
+  }
+
+  .para-form button {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .para-solution {
+    width: 300px;
+  }
+}

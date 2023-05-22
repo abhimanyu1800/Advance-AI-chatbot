@@ -1,0 +1,37 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 100vh;
+  background: url("https://9to5mac.com/wp-content/uploads/sites/6/2015/07/zbanahm.gif") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.loading-content {
+  text-align:start;
+  font-size: 30px;
+  margin-bottom: 150px;
+  transition: box-shadow 0.3s, font-size 0.3s;
+}
+.loading-content:hover {
+  box-shadow: 0 0 10px rgba(42, 39, 39, 0.5); /* Add glowy effect */
+  
+}
+.loading-content a {
+  color: #5e5959;
+  text-decoration:navajowhite;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .loading-container {
+    padding: 1rem;
+  }
+
+  .loading-content {
+    font-size: 1.2rem;
+  }
+}

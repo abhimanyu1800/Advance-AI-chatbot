@@ -1,0 +1,61 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f38181, #fce38a);
+}
+
+.error-parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.error-content {
+  color: red;
+  font-weight: bold;
+}
+
+.summary-form {
+  width: 450px;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #a8edea, #fed6e3);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.summary-form h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.summary-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.summary-form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.summary-solution {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.summary-solution p {
+  margin: 0;
+  font-size: 1rem;
+}
